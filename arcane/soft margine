@@ -1,0 +1,242 @@
+# for lukemia
+
+(72, 7129)
+(72,)
+('SVM soft-margin constant %d', 1.9)
+[ 1.          1.          1.          0.875       1.          1.          1.
+  1.          1.          0.83333333]
+L1 SVM 
+  Accuracy: 0.97 (+/- 0.12)
+[ 0.875       0.625       1.          0.75        0.875       0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM trained on all the features 
+ Accuracy: 0.79 (+/- 0.33)
+(72, 31)
+[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 1.00 (+/- 0.00)
+(72,)
+Optimal number of features : 10
+[ 0.9030888   0.9030888   0.93011583 ...,  0.69420849  0.69420849
+  0.69420849]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.72 (+/- 0.11)
+[ 0.875       0.625       1.          0.75        0.875       0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.79 (+/- 0.33)
+
+
+(72, 7129)
+(72,)
+('SVM soft-margin constant %d', 1.5)
+[ 1.          1.          1.          0.875       1.          1.          1.
+  1.          0.83333333  0.83333333]
+L1 SVM 
+  Accuracy: 0.95 (+/- 0.14)
+[ 0.875       0.625       1.          0.75        0.875       0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM trained on all the features 
+ Accuracy: 0.79 (+/- 0.33)
+(72, 44)
+[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 1.00 (+/- 0.00)
+(72,)
+Optimal number of features : 14
+[ 0.9030888   0.9030888   0.9030888  ...,  0.69420849  0.69420849
+  0.69420849]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.72 (+/- 0.11)
+[ 0.875       0.625       1.          0.75        0.875       0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.79 (+/- 0.33)
+
+
+('SVM soft-margin constant %d', 1.4)
+[ 1.          1.          1.          0.875       1.          1.          1.
+  1.          1.          0.83333333]
+L1 SVM 
+  Accuracy: 0.97 (+/- 0.12)
+[ 0.875       0.625       1.          0.75        0.875       0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM trained on all the features 
+ Accuracy: 0.79 (+/- 0.33)
+(72, 38)
+[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 1.00 (+/- 0.00)
+(72,)
+Optimal number of features : 11
+[ 0.83166023  0.84671815  0.84749035 ...,  0.69420849  0.69420849
+  0.69420849]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.72 (+/- 0.11)
+[ 0.875       0.625       1.          0.75        0.875       0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.79 (+/- 0.33)
+
+('SVM soft-margin constant %d', 1.2)
+[ 1.          1.          1.          0.875       1.          1.          1.
+  1.          1.          0.83333333]
+L1 SVM 
+  Accuracy: 0.97 (+/- 0.12)
+[ 0.875       0.625       1.          0.75        0.875       0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM trained on all the features 
+ Accuracy: 0.79 (+/- 0.33)
+(72, 40)
+[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 1.00 (+/- 0.00)
+(72,)
+Optimal number of features : 7
+[ 0.9030888   0.91660232  0.88803089 ...,  0.69420849  0.69420849
+  0.69420849]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.72 (+/- 0.11)
+[ 0.875       0.625       1.          0.75        0.875       0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.79 (+/- 0.33)
+
+(72, 7129)
+(72,)
+('SVM soft-margin constant %d', 0.7)
+[ 1.          1.          1.          0.875       1.          1.          1.
+  1.          1.          0.83333333]
+L1 SVM 
+  Accuracy: 0.97 (+/- 0.12)
+[ 0.875       0.625       1.          0.75        1.          0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM trained on all the features 
+ Accuracy: 0.80 (+/- 0.35)
+(72, 42)
+[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 1.00 (+/- 0.00)
+(72,)
+Optimal number of features : 10
+[ 0.9030888   0.91737452  0.9030888  ...,  0.69420849  0.69420849
+  0.69420849]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.73 (+/- 0.10)
+[ 0.875       0.625       1.          0.75        1.          0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.80 (+/- 0.35)
+
+
+#arcene
+('SVM soft-margin constant %d', 1.2)
+[ 0.72727273  0.81818182  0.81818182  0.63636364  0.7         0.7
+  0.66666667  1.          0.77777778  0.77777778]
+L1 SVM 
+  Accuracy: 0.76 (+/- 0.20)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM trained on all the features 
+ Accuracy: 0.84 (+/- 0.21)
+[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 1.00 (+/- 0.00)
+Optimal number of features : 8363
+[ 0.46  0.49  0.41 ...,  0.83  0.83  0.83]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.81 (+/- 0.05)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.84 (+/- 0.21)
+
+
+('SVM soft-margin constant %d', 1.4)
+[ 0.81818182  0.81818182  0.72727273  0.54545455  0.6         0.9
+  0.66666667  1.          0.77777778  0.66666667]
+L1 SVM 
+  Accuracy: 0.75 (+/- 0.26)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM trained on all the features 
+ Accuracy: 0.84 (+/- 0.21)
+[ 1.          1.          1.          0.90909091  1.          1.          1.
+  1.          1.          1.        ]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 0.99 (+/- 0.05)
+Optimal number of features : 8363
+[ 0.46  0.49  0.41 ...,  0.83  0.83  0.83]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.81 (+/- 0.05)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.84 (+/- 0.21)
+
+
+('SVM soft-margin constant %d', 0.7)
+[ 0.72727273  0.81818182  0.81818182  0.63636364  0.6         0.6
+  0.55555556  1.          0.88888889  0.88888889]
+L1 SVM 
+  Accuracy: 0.75 (+/- 0.29)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM trained on all the features 
+ Accuracy: 0.84 (+/- 0.21)
+[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 1.00 (+/- 0.00)
+Optimal number of features : 8363
+[ 0.46  0.49  0.41 ...,  0.83  0.83  0.83]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.81 (+/- 0.05)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.84 (+/- 0.21)
+
+
+('SVM soft-margin constant %d', 1.5)
+[ 0.72727273  0.81818182  0.72727273  0.63636364  0.7         0.8
+  0.77777778  0.77777778  0.88888889  0.66666667]
+L1 SVM 
+  Accuracy: 0.75 (+/- 0.14)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM trained on all the features 
+ Accuracy: 0.84 (+/- 0.21)
+[ 0.90909091  1.          1.          1.          1.          1.          1.
+  1.          0.88888889  1.        ]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 0.98 (+/- 0.08)
+Optimal number of features : 8363
+[ 0.46  0.49  0.41 ...,  0.83  0.83  0.83]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.81 (+/- 0.05)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.84 (+/- 0.21)
+
+
+('SVM soft-margin constant %d', 1.9)
+[ 0.72727273  0.81818182  0.90909091  0.72727273  0.6         0.8
+  0.77777778  1.          0.88888889  0.77777778]
+L1 SVM 
+  Accuracy: 0.80 (+/- 0.21)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM trained on all the features 
+ Accuracy: 0.84 (+/- 0.21)
+[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]
+L2 SVM trained on the features selected by the L1 SVM. 
+  Accuracy: 1.00 (+/- 0.00)
+Optimal number of features : 8363
+[ 0.46  0.49  0.41 ...,  0.83  0.83  0.83]
+L2 SVM that use the class RFECV which automatically selects the number of features. 
+ Accuracy: 0.81 (+/- 0.05)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.84 (+/- 0.21)

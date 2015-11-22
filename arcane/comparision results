@@ -1,0 +1,33 @@
+/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /Users/naru/Documents/Python/comparisionL2SvmArcene.py
+('number of featuer selected %d', 462)
+[ 0.88888889  1.          1.          0.88888889  0.88888889  1.
+  0.88888889  0.88888889  1.          1.        ]
+L2 SVM trained on the features selected by the L1 SVM subsampling. 
+  Accuracy: 0.94 (+/- 0.11)
+[ 0.90909091  0.90909091  0.90909091  0.63636364  0.7         0.9
+  0.77777778  1.          0.88888889  0.77777778]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.84 (+/- 0.21)
+10000
+('Number of Filtred (non zero golub score)featuers %d', 3724)
+[ 0.63636364  0.81818182  0.90909091  0.72727273  0.8         0.9
+  0.55555556  1.          0.66666667  0.77777778]
+L2 SVM trained on filtered features using golub score 
+ Accuracy: 0.78 (+/- 0.26)
+
+# lukemia
+
+('number of featuers selected %d', 39)
+[ 1.  1.  1.  1.  1.  1.  1.  1.  1.  1.]
+L2 SVM trained on the features selected by the L1 SVM subsampling. 
+  Accuracy: 1.00 (+/- 0.00)
+[ 0.875       0.625       1.          0.75        0.875       0.85714286
+  0.57142857  0.5         0.83333333  1.        ]
+L2 SVM that uses RFE (with an L2-SVM) to select relevant features. 
+ Accuracy: 0.79 (+/- 0.33)
+7129
+('number of features(non zero golub score) selected %d', 3393)
+[ 0.875       0.5         0.75        0.625       0.625       0.85714286
+  0.57142857  0.66666667  0.83333333  0.66666667]
+L2 SVM trained on filtered features using golub score 
+ Accuracy: 0.70 (+/- 0.24)

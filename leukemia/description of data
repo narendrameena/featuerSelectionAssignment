@@ -1,0 +1,8 @@
+Source: [TG99a]
+Preprocessing: Merge training/testing. Instance-wise normalization to mean zero and variance one. Then feature-wise normalization to mean zero and variance one. [SKS03a]
+# of classes: 2
+# of data: 38 / 34 (testing)
+# of features: 7129
+Files:
+leu.bz2
+leu.t.bz2 (testing)
